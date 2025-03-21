@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head class="bg-gray-100">
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sitdorart.com</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+
+    <body class="bg-gray-100">
+        <nav class="bg-gray-900 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html"><img src="output-onlinepngtools.png" alt="Logo" class="h-20 mr-2"></a>
+                    <a href="index.html" class="text-yellow-400 text-2xl font-bold">Si<span class="text-yellow-400">t</span>DorArt</a>
+                </div>
+                <button id="menu-toggle" class="text-white md:hidden">☰</button>
+                <ul id="menu" class="hidden md:flex space-x-4 text-white">
+                    <li><a href="index.html">Acasa</a></li>
+                    <li><a href="#autor">Autor</a></li>
+                    <li><a href="#concept">Concept</a></li>
+                    <li><a href="#cadranintermediar2">Despre mine</a></li>
+                    <li><a href="#Galerie">Galerie</a></li>
+                    <li><a href="#expozitii">Expozitii</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    <script>
+        document.getElementById("menu-toggle").addEventListener("click", function() {
+            document.getElementById("menu").classList.toggle("hidden");
+        });
+    </script>
+
+        <section id="desc111" class="container mx-auto mt-10 p-6 bg-white shadow rounded text-center">
+            <h2 class="text-2xl font-bold">Pereche</h2>
+            <h1 class="text-2xl font-bold">70x70, ulei pe panza</h1>    
+            <p class="text-lg mt-2">Ea este rotunda el are forme ascutite... Impreuna sunt un copac. Sa fie creier?</p>
+        </section>
+
+        <section id="desc1111" class="container mx-auto mt-10 p-6 bg-white shadow rounded text-center">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-4">
+                <a href="Pair1.jpg"><img src="Pair11223opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="Pair3.jpg"><img src="Paireche3opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="Pair2 (1)opt.jpg"><img src="Pair2 (1)opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="Pair4 (1).jpg"><img src="pairnou4opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="Pair5.jpg"><img src="Pair52345opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+            </div>
+        </section>
+
+        <footer class="mt-6 p-6 bg-gray-900 text-white text-center">
+            <p>&copy; 2024 sitdorart.com. Toate drepturile rezervate.</p>
+        </footer>
+    </body>
+</html>

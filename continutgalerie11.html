@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sitdorart.com</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-100">
+        <nav class="bg-gray-900 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html"><img src="output-onlinepngtools.png" alt="Logo" class="h-20 mr-2"></a>   
+                    <a href="index.html" class="text-yellow-400 text-2xl font-bold">Si<span class="text-yellow-400">t</span>DorArt</a>
+                </div>
+                <button id="menu-toggle" class="text-white md:hidden">☰</button>
+                <ul id="menu" class="hidden md:flex space-x-4 text-white">
+                    <li><a href="index.html">Acasa</a></li>
+                    <li><a href="#autor">Autor</a></li>
+                    <li><a href="#concept">Concept</a></li>
+                    <li><a href="#cadranintermediar2">Despre mine</a></li>
+                    <li><a href="#Galerie">Galerie</a></li>
+                    <li><a href="#expozitii">Expozitii</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <script>
+            document.getElementById("menu-toggle").addEventListener("click", function() {
+                document.getElementById("menu").classList.toggle("hidden");
+            });
+        </script>
+        <section id="desc11" class="container mx-auto mt-10 p-6 bg-white shadow rounded text-center">
+                <h2 class="text-2xl font-bold">Trairi</h2>
+                <h1 class="text-2xl font-bold">70x70, ulei pe panza</h1>
+                <p class="text-lg mt-2">Este o pictura a sufletului deschis, o inima vasta ca un taram de poveste. in contururile sale pulseaza pajesti verzi, unde firul ierbii mangaie vantul bland, iar florile salbatice danseaza sub razele.
+                    Muntii se ridica semeti si linistiti, ca niste strajeri ai sentimentelor adanci. 
+                    Aceasta  inima nu bate doar cu sange, ci cu rasuflarea naturii, cu dorul libertatii si visul nemarginit al orizonturilor verzi. Este un peisaj viu, in care fiecare colt vibreaza de emotie, de echilibru, de o frumusete simpla.
+                    E despre trairile pe care le poate avea o inima.</p>
+        </section>
+        <section id="poze" class="container mx-auto mt-6 p-6 bg-white shadow rounded text-center">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-4">
+                <a href="Emotions.jpg"><img src="Emotions (1)opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="Emotions1.jpg"><img src="Emotions1234opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="taci.jpg"><img src="Emotions2345 (2)opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="Emotions3.jpg"><img src="Emotions3456opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="emotions4.jpg"><img src="emotions45678opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="Trairiiii (2).JPG"><img src="Triiiiiiiiiiiii12456opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="iiiiiiiii.JPG"><img src="iiiiiiiii (1)opt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+            </div>
+        
+        </section>
+    </body>
+</html>

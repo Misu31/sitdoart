@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sitdorart.com</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-100">
+        <nav class="bg-gray-900 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html"><img src="output-onlinepngtools.png" alt="Logo" class="h-20 mr-2"></a>
+                    <a href="index.html" class="text-yellow-400 text-2xl font-bold">Si<span class="text-yellow-400">t</span>DorArt</a>
+                </div>
+                <button id="menu-toggle" class="text-white md:hidden">☰</button>
+                <ul id="menu" class="hidden md:flex space-x-4 text-white">
+                    <li><a href="index.html">Acasa</a></li>
+                    <li><a href="#autor">Autor</a></li>
+                    <li><a href="#concept">Concept</a></li>
+                    <li><a href="#cadranintermediar2">Despre mine</a></li>
+                    <li><a href="#Galerie">Galerie</a></li>
+                    <li><a href="#expozitii">Expozitii</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <script>
+            document.getElementById("menu-toggle").addEventListener("click", function() {
+                document.getElementById("menu").classList.toggle("hidden");
+            });
+        </script>
+    <section id="desc111" class="container mx-auto mt-10 p-6 bg-white shadow rounded text-center">
+            <h2 class="text-2xl font-bold">Observator</h2>
+            <h1 class="text-2xl font-bold">70x70, ulei pe panza</h1>    
+            <p class="text-lg mt-2">Este un peisaj al paradoxului si al profunzimii, unde realitatea se impleteste cu visul. in centrul imaginii, un ochi imens se deschide ca o fereastra spre infinit. in loc de iris, adaposteste o padure adanca, un labirint de copaci tacuti isi inalta coroanele.
+                Padurea din ochi respira, fosneste, traieste propriul timp, iar printre crengile sale se filtreaza doua fante subtiri de lumina – ca niste portaluri ce taie intunericul, cautand un adevar.
+                Un punct singuratic pluteste in acest spatiu enigmatic, un fir de esenta pura, un atom al intelesului nedeslusit. intreaga scena pare prinsa intr-un subtil al existentei, unda - particula si o data impleteste destinul, o poveste despre dualitate perceptie si mister. Unda sau particula</p>
+    </section>
+    <section id="poze" class="container mx-auto mt-6 p-6 bg-white shadow rounded text-center">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-4">
+            <a href="Observer.JPG"><img src="Observer.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+            <a href="Observer1.jpg"><img src="Observer1egalopt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+            <a href="Observer2.jpg"><img src="Observer2egalopt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+            <a href="Observer3.jpg"><img src="Observer3egalopt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+            <a href="Observer4.JPG"><img src="Observer4egalopt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+
+        </div>
+    </section>
+
+    <footer class="mt-6 p-6 bg-gray-900 text-white text-center">
+        <p>&copy; 2024 sitdorart.com. Toate drepturile rezervate.</p>
+    </footer>
+    </body>
+</html>

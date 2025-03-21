@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sitdorart.com</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-100">
+        <nav class="bg-gray-900 p-4">
+            <div class="container mx-auto flex justify-between items-center">
+                <div class="flex items-center">
+                    <a href="index.html"><img src="output-onlinepngtools.png" alt="Logo" class="h-20 mr-2"></a>
+                    <a href="index.html" class="text-yellow-400 text-2xl font-bold">Si<span class="text-yellow-400">t</span>DorArt</a>
+                </div>
+                <button id="menu-toggle" class="text-white md:hidden">☰</button>
+                <ul id="menu" class="hidden md:flex space-x-4 text-white">
+                    <li><a href="index.html">Acasa</a></li>
+                    <li><a href="#autor">Autor</a></li>
+                    <li><a href="#concept">Concept</a></li>
+                    <li><a href="#cadranintermediar2">Despre mine</a></li>
+                    <li><a href="#Galerie">Galerie</a></li>
+                    <li><a href="#expozitii">Expozitii</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <script>
+            document.getElementById("menu-toggle").addEventListener("click", function() {
+                document.getElementById("menu").classList.toggle("hidden");
+            });
+        </script>
+        <section id="desc1" class="container mx-auto mt-10 p-6 bg-white shadow rounded text-center">
+                <h2 class="text-2xl font-bold">Viata</h2>
+                <h1 class="text-2xl font-bold">70x70, ulei, tehnica mixta</h1>
+                <p class="text-lg mt-2">La inceput, era un loc unde totul exista. insa, tocmai pentru ca exista totul, nimic nu era definit. Posibilitatea ca un lucru sa fie era egala cu posibilitatea ca acel lucru sa nu fie.
+                    Apoi a aparut El. Cu prezenta Sa, a rupt acest echilibru perfect intr-un singur punct. Din acel punct, s-a nascut o posibilitate. Aceasta posibilitate a deschis calea altora, generand un univers de noi existente.
+                    El era alb – o lumina pura, ce continea toate culorile. Din alb s-a nascut albastrul, prima reflexie a creatiei. Albastrul, la randul sau, a dat nastere altor nuante – galbenul, care se aseza la mijlocul spectrului, aducand echilibru.
+                    Dar in umbra pandeste mereu negrul – vast, aproape infinit. Totusi, acolo unde intunericul ameninta sa inghita totul, aparea rosul. Rosul, intens si neobosit, lupta sa scoata existenta din inexistenta. Uneori reusea, alteori efortul sau era in zadar.
+                    Astfel, albul ce a creat albastrul, care a dat nastere galbenului, iar apoi rosul ce rezista negrului, formeaza esenta posibilitatii noastre de a exista. Acesta este inceputul universului, al luminii si al umbrelor – o poveste a culorilor, a echilibrului si a luptei pentru existenta.</p>
+        </section>
+        <section id="poze" class="container mx-auto mt-6 p-6 bg-white shadow rounded text-center">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-4">
+                <a href="Viata1.jpg"><img src="Viata1egaleopt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="Detaliuviata4.JPG"><img src="Detaliuviata4egalopt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="DetViata2.JPG"><img src="DetViata2.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="Detviata3.JPG"><img src="Detviata3egalopt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+                <a href="Detviata1.JPG"><img src="Detviata1egaliteopt.jpg" class="w-full rounded shadow hover:opacity-80"></a>
+            </div>
+        </section>
+
+        <footer class="mt-6 p-6 bg-gray-900 text-white text-center">
+            <p>&copy; 2024 sitdorart.com. Toate drepturile rezervate.</p>
+        </footer>
+    </body>
+</html>
